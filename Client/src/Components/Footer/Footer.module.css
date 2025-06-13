@@ -1,0 +1,59 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .horoscops {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .navLinks {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .navLinks a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+  }
+  
+  .navLinks a:hover {
+    text-decoration: underline;
+  }
+  
+  .footerText {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .socialIcons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .socialIcons img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+  }
+  
+  .socialIcons img:hover {
+    filter: none;
+  }
+  
